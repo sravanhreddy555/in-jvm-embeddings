@@ -1,0 +1,492 @@
+[
+ {
+  "query": "someone to keep production Kubernetes clusters reliable and respond to outages",
+  "kind": "skill",
+  "relevant": [
+   "job-008",
+   "job-074",
+   "job-168",
+   "job-243",
+   "job-323"
+  ]
+ },
+ {
+  "query": "build and schedule data pipelines with Apache Airflow",
+  "kind": "skill",
+  "relevant": [
+   "job-032",
+   "job-097",
+   "job-146",
+   "job-212"
+  ]
+ },
+ {
+  "query": "train and deploy deep learning models with PyTorch",
+  "kind": "skill",
+  "relevant": [
+   "job-095",
+   "job-175",
+   "job-224"
+  ]
+ },
+ {
+  "query": "iPhone app developer who uses SwiftUI",
+  "kind": "skill",
+  "relevant": [
+   "job-019",
+   "job-025",
+   "job-228",
+   "job-290"
+  ]
+ },
+ {
+  "query": "Android apps written in Kotlin with Jetpack Compose",
+  "kind": "skill",
+  "relevant": [
+   "job-006",
+   "job-056",
+   "job-161",
+   "job-219"
+  ]
+ },
+ {
+  "query": "web UI work with Next.js",
+  "kind": "skill",
+  "relevant": [
+   "job-089",
+   "job-209",
+   "job-231",
+   "job-260"
+  ]
+ },
+ {
+  "query": "experienced Go programmer building gRPC services",
+  "kind": "skill",
+  "relevant": [
+   "job-075",
+   "job-077",
+   "job-108",
+   "job-211"
+  ]
+ },
+ {
+  "query": "Java Spring Boot microservices with Kafka event streaming",
+  "kind": "skill",
+  "relevant": [
+   "job-062",
+   "job-099",
+   "job-160",
+   "job-192",
+   "job-196",
+   "job-266",
+   "job-269"
+  ]
+ },
+ {
+  "query": "Python web backend using Django",
+  "kind": "skill",
+  "relevant": [
+   "job-123",
+   "job-126",
+   "job-143",
+   "job-279"
+  ]
+ },
+ {
+  "query": "infrastructure as code with Terraform",
+  "kind": "skill",
+  "relevant": [
+   "job-067",
+   "job-139",
+   "job-144",
+   "job-206",
+   "job-295"
+  ]
+ },
+ {
+  "query": "architect for Microsoft Azure cloud migrations",
+  "kind": "skill",
+  "relevant": [
+   "job-078",
+   "job-128",
+   "job-155",
+   "job-179",
+   "job-185"
+  ]
+ },
+ {
+  "query": "ethical hacker to perform penetration tests",
+  "kind": "skill",
+  "relevant": [
+   "job-029",
+   "job-098",
+   "job-118",
+   "job-294",
+   "job-309"
+  ]
+ },
+ {
+  "query": "end-to-end browser test automation with Playwright",
+  "kind": "skill",
+  "relevant": [
+   "job-278",
+   "job-300",
+   "job-318"
+  ]
+ },
+ {
+  "query": "firmware for microcontrollers",
+  "kind": "skill",
+  "relevant": [
+   "job-023",
+   "job-045",
+   "job-191"
+  ]
+ },
+ {
+  "query": "Unity game programmer",
+  "kind": "skill",
+  "relevant": [
+   "job-012",
+   "job-057",
+   "job-137",
+   "job-229",
+   "job-236"
+  ]
+ },
+ {
+  "query": "keep databases backed up, replicated and highly available",
+  "kind": "role",
+  "relevant": [
+   "job-001",
+   "job-124",
+   "job-164",
+   "job-173",
+   "job-177",
+   "job-198",
+   "job-284"
+  ]
+ },
+ {
+  "query": "own the product roadmap and prioritise features",
+  "kind": "skill",
+  "relevant": [
+   "job-107",
+   "job-178",
+   "job-233",
+   "job-237",
+   "job-250",
+   "job-265",
+   "job-270"
+  ]
+ },
+ {
+  "query": "designer who builds and maintains a design system in Figma",
+  "kind": "skill",
+  "relevant": [
+   "job-054",
+   "job-092",
+   "job-132",
+   "job-165"
+  ]
+ },
+ {
+  "query": "write developer documentation and API guides",
+  "kind": "role",
+  "relevant": [
+   "job-085",
+   "job-105",
+   "job-241",
+   "job-255",
+   "job-276",
+   "job-304"
+  ]
+ },
+ {
+  "query": "lead and grow a team of software engineers",
+  "kind": "role",
+  "relevant": [
+   "job-024",
+   "job-034",
+   "job-065",
+   "job-090",
+   "job-271",
+   "job-321",
+   "job-322"
+  ]
+ },
+ {
+  "query": "technical pre-sales demos for enterprise prospects",
+  "kind": "role",
+  "relevant": [
+   "job-017",
+   "job-043",
+   "job-102",
+   "job-283",
+   "job-311",
+   "job-328"
+  ]
+ },
+ {
+  "query": "design and operate corporate networks, routers and firewalls",
+  "kind": "role",
+  "relevant": [
+   "job-061",
+   "job-086",
+   "job-140",
+   "job-190",
+   "job-205",
+   "job-210",
+   "job-259",
+   "job-287"
+  ]
+ },
+ {
+  "query": "Salesforce Apex and Lightning developer",
+  "kind": "role",
+  "relevant": [
+   "job-013",
+   "job-027",
+   "job-037",
+   "job-040",
+   "job-060",
+   "job-133"
+  ]
+ },
+ {
+  "query": "financial crime prevention and regulatory compliance",
+  "kind": "role",
+  "relevant": [
+   "job-005",
+   "job-068",
+   "job-218",
+   "job-223",
+   "job-240",
+   "job-273",
+   "job-289"
+  ]
+ },
+ {
+  "query": "design A/B tests and analyse experiment results",
+  "kind": "skill",
+  "relevant": [
+   "job-041",
+   "job-066",
+   "job-080",
+   "job-087",
+   "job-272",
+   "job-274",
+   "job-282"
+  ]
+ },
+ {
+  "query": "build Tableau dashboards for business stakeholders",
+  "kind": "skill",
+  "relevant": [
+   "job-036",
+   "job-135",
+   "job-202",
+   "job-208",
+   "job-252",
+   "job-254",
+   "job-299"
+  ]
+ },
+ {
+  "query": "search engine optimisation and content strategy",
+  "kind": "skill",
+  "relevant": [
+   "job-109",
+   "job-148",
+   "job-275"
+  ]
+ },
+ {
+  "query": "source and hire software engineers",
+  "kind": "role",
+  "relevant": [
+   "job-011",
+   "job-120",
+   "job-158",
+   "job-194",
+   "job-207",
+   "job-245",
+   "job-267"
+  ]
+ },
+ {
+  "query": "smart contracts on Ethereum",
+  "kind": "role",
+  "relevant": [
+   "job-088",
+   "job-106",
+   "job-149",
+   "job-227",
+   "job-251",
+   "job-263"
+  ]
+ },
+ {
+  "query": "build native apps for Apple devices",
+  "kind": "role",
+  "relevant": [
+   "job-019",
+   "job-025",
+   "job-031",
+   "job-094",
+   "job-115",
+   "job-153",
+   "job-228",
+   "job-290"
+  ]
+ },
+ {
+  "query": "video game development",
+  "kind": "role",
+  "relevant": [
+   "job-012",
+   "job-057",
+   "job-137",
+   "job-183",
+   "job-229",
+   "job-230",
+   "job-236",
+   "job-316"
+  ]
+ },
+ {
+  "query": "user experience research and interface design",
+  "kind": "role",
+  "relevant": [
+   "job-007",
+   "job-054",
+   "job-092",
+   "job-132",
+   "job-152",
+   "job-165",
+   "job-176",
+   "job-182"
+  ]
+ },
+ {
+  "query": "memory-safe low-latency systems programming",
+  "kind": "role",
+  "relevant": [
+   "job-003",
+   "job-058",
+   "job-096",
+   "job-111",
+   "job-142",
+   "job-172",
+   "job-277"
+  ]
+ },
+ {
+  "query": "care for patients on hospital wards",
+  "kind": "role",
+  "relevant": [
+   "job-021",
+   "job-035",
+   "job-136",
+   "job-171",
+   "job-217",
+   "job-225",
+   "job-257",
+   "job-298"
+  ]
+ },
+ {
+  "query": "bookkeeping and preparing financial statements for the audit",
+  "kind": "role",
+  "relevant": [
+   "job-009",
+   "job-026",
+   "job-162",
+   "job-195",
+   "job-215",
+   "job-234",
+   "job-239",
+   "job-292"
+  ]
+ },
+ {
+  "query": "plan budgets and explain variances to leadership",
+  "kind": "role",
+  "relevant": [
+   "job-119",
+   "job-151",
+   "job-169",
+   "job-258",
+   "job-301",
+   "job-302",
+   "job-303",
+   "job-329"
+  ]
+ },
+ {
+  "query": "design physical product parts and take them to manufacturing",
+  "kind": "role",
+  "relevant": [
+   "job-015",
+   "job-093",
+   "job-104",
+   "job-199",
+   "job-242",
+   "job-244",
+   "job-246"
+  ]
+ },
+ {
+  "query": "warehouse and supply chain operations",
+  "kind": "role",
+  "relevant": [
+   "job-004",
+   "job-018",
+   "job-022",
+   "job-214",
+   "job-216",
+   "job-307"
+  ]
+ },
+ {
+  "query": "help business customers succeed after they sign the contract",
+  "kind": "role",
+  "relevant": [
+   "job-053",
+   "job-091",
+   "job-150",
+   "job-201",
+   "job-220",
+   "job-238",
+   "job-262",
+   "job-326"
+  ]
+ },
+ {
+  "query": "create visual assets and brand identity for marketing",
+  "kind": "role",
+  "relevant": [
+   "job-055",
+   "job-129",
+   "job-157",
+   "job-167",
+   "job-222",
+   "job-291",
+   "job-296"
+  ]
+ },
+ {
+  "query": "keep office laptops, user accounts and the helpdesk running",
+  "kind": "role",
+  "relevant": [
+   "job-002",
+   "job-059",
+   "job-113",
+   "job-134",
+   "job-197",
+   "job-253",
+   "job-305",
+   "job-330"
+  ]
+ }
+]

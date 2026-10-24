@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Semantic Search</title>
+  <style>
+    body { font: 16px/1.5 system-ui, sans-serif; max-width: 640px; margin: 3rem auto; padding: 0 1rem; color: #222; }
+    form { display: flex; gap: .5rem; }
+    input { flex: 1; padding: .6rem; font: inherit; border: 1px solid #bbb; border-radius: 6px; }
+    button { padding: .6rem 1rem; font: inherit; border: 0; border-radius: 6px; background: #2457d6; color: #fff; cursor: pointer; }
+    li { padding: .4rem 0; border-bottom: 1px solid #eee; display: flex; justify-content: space-between; gap: 1rem; }
+    .score { color: #777; font-variant-numeric: tabular-nums; }
+  </style>
+</head>
+<body>
+  <h1>Semantic search</h1>
+  <p>Describe what you are looking for in your own words. Results are ranked by meaning, not keywords.</p>
+  <form id="search">
+    <input id="q" placeholder="someone who builds data pipelines" autofocus required>
+    <button>Search</button>
+  </form>
+  <ol id="results"></ol>
+  <script>
+    document.getElementById('search').addEventListener('submit', async (event) => {
+      event.preventDefault();
+      const q = document.getElementById('q').value;
+      const response = await fetch('/search?k=10&q=' + encodeURIComponent(q));
+      const list = document.getElementById('results');
+      list.replaceChildren();
+      for (const hit of await response.json()) {
+        const item = document.createElement('li');
+        const title = document.createElement('span');
+        title.textContent = hit.title + ' (' + hit.id + ')';
+        const score = document.createElement('span');
+        score.className = 'score';
+        score.textContent = hit.score.toFixed(3);
+        item.append(title, score);
+        list.append(item);
+      }
+    });
+  </script>
+</body>
+</html>
